@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="cm.trixobase.sharenda.domain.activity.group.GroupMembersActivity">
+
+    <include layout="@layout/my_toolbar"/>
+
+    <TableRow
+        style="@style/TextView_Title_Event">
+
+        <TextView
+            style="@style/TextView_Form"
+            android:text="@string/label_text_phone_search" />
+
+        <EditText
+            android:id="@+id/et_group_member_search_id"
+            style="@style/EditText"
+            android:layout_marginStart="5dp"
+            android:hint="@string/label_text_phone_search_hint"/>
+    </TableRow>
+
+    <include layout="@layout/my_linear"/>
+
+    <ListView
+        android:id="@+id/lv_contacts_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

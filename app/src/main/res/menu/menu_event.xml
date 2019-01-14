@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cm.trixobase.sharenda.domain.activity.home.EventActivity">
+    <item
+        android:id="@+id/action_event_add_id"
+        android:orderInCategory="150"
+        android:title="@string/action_add_event"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_new_activity" />
+    <item
+        android:id="@+id/action_event_phone_id"
+        android:orderInCategory="185"
+        android:title="@string/action_event_phone"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_event_invite_id"
+        android:orderInCategory="187"
+        android:title="@string/action_invite"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_event_settings"
+        android:orderInCategory="190"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>

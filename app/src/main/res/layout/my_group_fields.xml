@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_camera_id"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:contentDescription="@string/description_group_photo_"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/ic_camera" />
+
+        <TextView
+            android:id="@+id/tv_camera_id"
+            style="@style/TextView_Form"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:gravity="center_vertical"
+            android:text="@string/label_text_camera"
+            android:textAlignment="inherit"
+            android:textColor="@color/subtitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_camera_id" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_group_name_id"
+            style="@style/TextView_Form"
+            android:layout_height="20dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/label_text_form_name_group"
+            app:layout_constraintBottom_toBottomOf="@+id/et_name_group_id"
+            app:layout_constraintEnd_toStartOf="@+id/barre"
+            app:layout_constraintTop_toTopOf="@+id/et_name_group_id" />
+
+        <ImageView
+            android:id="@+id/barre"
+            android:layout_width="5dp"
+            android:layout_height="15dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/et_name_group_id"
+            style="@style/EditText"
+            android:layout_width="@dimen/EditText_width_form"
+            android:layout_marginStart="8dp"
+            android:hint="@string/label_text_hint_group_name"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/text_widget_form"
+            app:layout_constraintStart_toEndOf="@+id/tv_group_name_id"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <ImageView
+            android:id="@+id/iv_groupe_name_flag_id"
+            style="@style/ImageView_control"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toEndOf="@+id/et_name_group_id"
+            app:layout_constraintTop_toTopOf="@+id/et_name_group_id" />
+
+        <TextView
+            android:id="@+id/tv_group_category_id"
+            style="@style/TextView_Form"
+            android:layout_marginTop="22dp"
+            android:contentDescription="@string/description_category"
+            android:text="@string/label_text_form_category"
+            app:layout_constraintEnd_toEndOf="@+id/tv_group_name_id"
+            app:layout_constraintTop_toBottomOf="@+id/tv_group_name_id" />
+
+        <Spinner
+            android:id="@+id/sp_category_id"
+            style="@style/Spinner"
+            android:layout_width="@dimen/EditText_width_form"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/description_category"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/et_name_group_id"
+            app:layout_constraintTop_toBottomOf="@+id/et_name_group_id" />
+
+        <ImageView
+            android:id="@+id/iv_group_category_id"
+            style="@style/ImageView_control"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/sp_category_id"
+            app:layout_constraintStart_toEndOf="@+id/sp_category_id"
+            app:layout_constraintTop_toTopOf="@+id/sp_category_id"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+    <include
+        layout="@layout/my_linear"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

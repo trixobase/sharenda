@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_civil_status">
+        <item>@string/student_tiny</item>
+        <item>@string/student</item>
+        <item>@string/professional</item>
+    </string-array>
+    <string-array name="list_attitude">
+        <item>@string/serious</item>
+        <item>@string/opportunist</item>
+        <item>@string/partup</item>
+    </string-array>
+    <string-array name="list_group_categories">
+        <item>@string/group_category_any</item>
+        <item>@string/group_category_business</item>
+        <item>@string/group_category_study</item>
+        <item>@string/group_category_family</item>
+        <item>@string/group_category_work</item>
+        <item>@string/group_category_sport</item>
+        <item>@string/group_category_enjoy</item>
+    </string-array>
+    <string-array name="list_activitiy_types">
+        <item>@string/event_type_personal</item>
+        <item>@string/group_category_business</item>
+        <item>@string/group_category_study</item>
+        <item>@string/group_category_family</item>
+        <item>@string/group_category_work</item>
+        <item>@string/group_category_sport</item>
+        <item>@string/group_category_enjoy</item>
+    </string-array>
+    <string-array name="list_empty_invite">
+        <item>@string/event_type_any</item>
+    </string-array>
+    <string-array name="list_activity_time">
+        <item>@string/activity_time_one</item>
+        <item>@string/activity_time_two</item>
+        <item>@string/activity_time_three</item>
+        <item>@string/activity_time_four</item>
+    </string-array>
+    <string-array name="list_day">
+        <item>@string/label_day_lundi</item>
+        <item>@string/label_day_mardi</item>
+        <item>@string/label_day_mercredi</item>
+        <item>@string/label_day_jeudi</item>
+        <item>@string/label_day_vendredi</item>
+        <item>@string/label_day_samedi</item>
+        <item>@string/label_day_dimanche</item>
+    </string-array>
+</resources>

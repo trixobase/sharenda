@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cm.trixobase.sharenda.domain.activity.SendSmsActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/my_toolbar" />
+
+    <LinearLayout
+        android:id="@+id/ll_group_send_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+    <TextView
+        android:id="@+id/tv_group_send_sms_message_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorAccent"
+        android:textSize="19sp"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/et_group_send_sms_message_id"
+        android:layout_width="fill_parent"
+        android:layout_height="70sp"
+        android:gravity="start"
+        android:padding="3dp"
+        android:inputType="textMultiLine"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorAccent"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_group_send_sms_send_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/label_text_button_send"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_group_send_id" />
+
+    <LinearLayout
+        android:id="@+id/ll_sms_send_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal"
+        android:paddingEnd="5dp"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@+id/bt_group_send_sms_send_id">
+
+        <ImageView
+            android:id="@+id/iv_trixo_feature_id"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="11dp"
+            android:src="@drawable/iv_emoticon"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/ll_trixo_feature_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_trixo_feature_id">
+
+            <TextView
+                android:id="@+id/tv1_trixo_feature_id"
+                style="@style/TextView_Form"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="8dp"
+                android:textSize="14dp"
+                android:textAlignment="textStart"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/tv2_trixo_feature_id"
+                style="@style/TextView_Form"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@string/label_message_sms_2"
+                android:textAlignment="inherit"
+                android:textSize="14dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv1_trixo_feature_id"
+                tools:ignore="MissingConstraints" />
+        </android.support.constraint.ConstraintLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

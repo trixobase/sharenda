@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="cm.trixobase.sharenda.domain.activity.setting.SettingHelp">
+
+    <include layout="@layout/my_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll_settings_help_contact_us_id"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        tools:ignore="RtlSymmetry">
+
+        <TextView
+            style="@style/TextView_Setting"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/label_text_setting_help_contact_us"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/my_linear_setting"
+        android:layout_marginStart="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_settings_help_politic_id"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        tools:ignore="RtlSymmetry">
+
+        <TextView
+            style="@style/TextView_Setting"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/label_text_setting_help_politic"/>
+
+    </LinearLayout>
+
+        <include layout="@layout/my_linear_setting"
+            android:layout_marginStart="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_settings_help_about_id"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        tools:ignore="RtlSymmetry">
+
+        <TextView
+            style="@style/TextView_Setting"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/label_text_setting_help_about"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+    <include layout="@layout/my_linear"/>
+
+</LinearLayout>

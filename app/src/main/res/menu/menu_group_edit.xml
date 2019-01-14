@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ic_action_group_edit_del_id"
+        android:orderInCategory="80"
+        android:title="@string/action_del_group"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_trash" />
+    <item
+        android:id="@+id/ic_action_group_edit_save_id"
+        android:icon="@drawable/ic_action_save"
+        android:orderInCategory="150"
+        android:title="@string/ic_Save"
+        app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tr_layout_id"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:paddingEnd="7dp"
+    android:paddingStart="15dp"
+    android:paddingBottom="3dp"
+    android:paddingTop="3dp"
+    android:background="@color/colorPrimary">
+
+
+    <ImageView
+        android:id="@+id/iv_avatar_owner_id"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@+id/iv_avatar_owner_id"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/tv_title_lv_id"
+            style="@style/TextView_ListView"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textColor="@color/colorGrey" />
+
+        <TextView
+            android:id="@+id/tv_date_lv_id"
+            style="@style/TextView_ListView"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_flag_id"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

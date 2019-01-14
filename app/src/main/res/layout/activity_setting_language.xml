@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="cm.trixobase.sharenda.domain.activity.setting.SettingLanguage">
+
+    <include layout="@layout/my_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            tools:ignore="RtlSymmetry">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/iv_drapeau_fr" />
+
+
+            <TextView
+                style="@style/TextView_Setting"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:gravity="start|center_vertical"
+                android:text="@string/label_text_setting_language_fr" />
+
+            <RadioButton
+                android:id="@+id/rb_settings_language_fr_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"/>
+
+        </LinearLayout>
+
+        <include layout="@layout/my_linear_setting" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            tools:ignore="RtlSymmetry">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/iv_drapeau_en" />
+
+
+            <TextView
+                style="@style/TextView_Setting"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:gravity="start|center_vertical"
+                android:text="@string/label_text_setting_language_en" />
+
+            <RadioButton
+                android:id="@+id/rb_settings_language_en_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/my_linear"/>
+
+</LinearLayout>

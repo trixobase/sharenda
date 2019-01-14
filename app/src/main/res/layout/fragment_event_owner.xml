@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextView_Form"
+        android:text="@string/label_text_priority"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:padding="3dp"
+        android:textSize="14sp"/>
+
+    <include layout="@layout/my_linear"/>
+
+    <TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        tools:ignore="RtlSymmetry">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="53dp"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="0dp">
+
+                <TextView
+                    android:id="@+id/tv_title_owner_id"
+                    style="@style/TextView_ListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:textColor="@color/colorGrey" />
+
+                <TextView
+                    android:id="@+id/tv_date_owner_id"
+                    style="@style/TextView_ListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="12dp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_flag_priority_id"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+    </TableRow>
+
+    <include layout="@layout/my_linear"/>
+
+    <TextView
+        style="@style/TextView_Form"
+        android:text="@string/label_text_next_time"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:padding="3dp"
+        android:textSize="14sp"/>
+
+    <include layout="@layout/my_linear"/>
+
+    <ListView
+        android:id="@+id/lv_status_owner_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

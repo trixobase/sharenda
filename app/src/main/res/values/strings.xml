@@ -1,0 +1,273 @@
+<resources>
+    <string name="app_name">Sharenda</string>
+    <string name="text_continue">Accepter et continuer</string>
+    <string name="message_welcome_on_app">Bienvenue sur Sharenda</string>
+    <string name="message_policy">"Appuyez sur \"Accepter et continuer\" pour accepter les "</string>
+    <string name="message_policy_link">Conditions Générales d\'Utilisations et la Politique de Confidentialité de Sharenda.</string>
+    <string name="message_slogan">Ensemble.. c\'est mieux !!!</string>
+    <string name="sharenda_logo_description">Logo Officiel de Sharenda</string>
+    <string name="label_title_policy">Politique de Confidentialité</string>
+    <string name="label_title_registration_add">"Créez votre profil: "</string>
+    <string name="label_title_registration_edit">"Modifiez votre profil: "</string>
+    <string name="label_title_step_two">Créez votre compte: 2/2</string>
+    <string name="step_description">Etape d\'enregistrement</string>
+    <string name="subtitile_form_identification">Identification</string>
+    <string name="subtitile_form_security">Sécutité (04 chiffres)</string>
+    <string name="civility_mr">M.</string>
+    <string name="civility_mrs">Mme</string>
+    <string name="description_status">Civilité</string>
+    <string name="label_text_attitude">Habitude:</string>
+    <string name="civil_status">Statut civil:</string>
+    <string name="password">Mot de passe</string>
+    <string name="confirm">Confirmez mot de passe</string>
+    <string name="description_age">Age du mobinaute</string>
+    <string name="label_title_form_details">Détails personnels</string>
+    <string name="label_text_ans">ans</string>
+    <string name="label_text_of">De:</string>
+
+    <string name="label_text_form_sexe">Sexe:</string>
+    <string name="label_text_form_surname">Prénom:</string>
+    <string name="label_text_form_age">Age:</string>
+    <string name="label_text_form_name_group">Nom du lieu:</string>
+    <string name="label_text_form_category">Catégorie:</string>
+    <string name="label_text_form_title">Titre:</string>
+    <string name="label_text_form_type">Type:</string>
+    <string name="label_text_form_invite">Invités:</string>
+    <string name="label_text_form_date">Date:</string>
+    <string name="label_text_form_hour">Heure:</string>
+    <string name="label_text_form_time_med">Durée moyenne:</string>
+    <string name="label_text_form_time">Durée:</string>
+    <string name="label_text_actual">Actuel:</string>
+    <string name="label_text_form_best_day">A partir du:</string>
+    <string name="label_text_form_hour_min">Heure minimum de début:</string>
+    <string name="label_text_form_hour_max">Heure maximumm de début:</string>
+
+    <string name="label_text_phone_message">Message</string>
+    <string name="label_text_phone_compute_message">Message (%d/70)</string>
+    <string name="label_text_phone_search">Rechercher:</string>
+    <string name="label_text_phone_search_hint">Nom ou numéro</string>
+
+    <string name="label_text_button_send">Envoyer</string>
+
+    <string name="label_text_dialog_del">Supprimer</string>
+
+    <string name="label_text_preference_read">lire</string>
+    <string name="label_text_preference_play">jouer</string>
+    <string name="label_text_preference_surf">surfer</string>
+    <string name="label_text_preference_danse">danser</string>
+    <string name="label_text_preference_discute">discuter</string>
+    <string name="label_text_preference_drink">boire</string>
+    <string name="label_text_preference_work">travailler</string>
+    <string name="label_text_preference_run">courrir</string>
+    <string name="label_text_preference_enjoy">s\'amuser</string>
+    <string name="label_text_preference_tv">la télé</string>
+
+    <string name="label_text_response_yes">Oui</string>
+    <string name="label_text_response_no">Non</string>
+
+    <string name="label_text_hint_group_name">Ville ou Quartier</string>
+    <string name="label_text_hint_event_title">Nom de tâche ou de rdv</string>
+
+    <string name="error_user_sexe_save">Sélectionnez votre sexe</string>
+    <string name="error_user_surname_save">Entrez votre prénom</string>
+    <string name="error_user_age_save">Entrez un age valide (13–80)ans</string>
+    <string name="error_user_status_save">Sélectionnez votre statut civil</string>errorConfirmSave
+    <string name="error_user_password_save">Entrez un mot de passe</string>
+    <string name="error_user_confirm_save">Vos mots de passe doivent etre identiques</string>
+    <string name="error_user_shot_password_save">Mot de passe trop cout</string>
+    <string name="error_user_long_password_save">Mot de passe trop long</string>
+    <string name="error_user_empty_confirmation_save">Confirmez votre mot de passe</string>
+    <string name="error_user_comportment_save">Selectionnez un comportement !</string>
+    <string name="error_user_number_save">Numéro invalide !!</string>
+    <string name="error_save">Erreur lors de la sauvegarde</string>
+    <string name="error_delete">Erreur lors de la suppression</string>
+    <string name="error_group_name_save">Entrez un lieu</string>
+    <string name="error_group_category_save">Sélectionnez une catégorie</string>
+    <string name="error_group_contact_save_min">Minimum recquis:</string>
+    <string name="error_group_contact_save_max">Maximum recquis:</string>
+    <string name="error_group_contact_save_del">Minimum atteinds !!</string>
+    <string name="error_activity_title_save">Entrez un titre</string>
+    <string name="error_activity_time_save">Vérifiez l\'heure</string>
+    <string name="error_send_message">Message non envoyé</string>
+    <string name="error_send_message_empty">Message vide</string>
+    <string name="error_send_message_long">Message trop long (%s/70)</string>
+    <string name="error_foreign_receive">Acttivité non recupéré</string>
+    <string name="error_event_group_for_type">Aucun groupe pour ce type d\'activité</string>
+
+    <string name="success_save">Sauvegarde éffectuée</string>
+    <string name="success_activity_saved">Acttivité sauvegardé</string>
+    <string name="success_group_saved">Groupe sauvegardé</string>
+    <string name="success_group_send_message">Messages envoyés</string>
+    <string name="success_invitation_send_messages">Invitations envoyés</string>
+    <string name="success_invitation_send_message">Invitation envoyé</string>
+    <string name="success_contact_send_message">Message envoyé</string>
+    <string name="success_group_deleted">Groupe supprimé</string>
+    <string name="success_group_edited">Groupe modifié</string>
+    <string name="success_foreign_receive">Nouvelle acttivité disponible</string>
+    <string name="success_owner_begin">Début d\'acttivité</string>
+    <string name="success_preferences_reset">Réinitialisation terminée</string>
+
+    <string name="ic_Astuces">Astuces</string>
+
+    <string name="text_title_personal_data">Données personnelles</string>
+    <string name="text_personal_data">En utilisant l’Application, l’Utilisateur accepte de fournir un certain nombre de données à caractère personnel qui seront traitées conformément aux dispositions de la loi du 6 janvier 1978 relative à l\'informatique, aux fichiers et aux libertés.  Sharenda est  responsable du traitement de toutes les données personnelles collectées via l’Application.</string>
+    <string name="text_title_personal_data_process">Finalités du traitement des données personnelles de l’Utilisateur</string>
+    <string name="text_personal_data_process">Les informations recueillies par Sharenda font l’objet d’un traitement informatique destiné à : \n• Associer un utilisateur à un numéro de téléphone;\n• Restituer à l’utilisateur les données de chacune des activités enregistrés ainsi que leur participants;\n• Restituer à l’utilisateur les données de chacun des groupes enregistrés ainsi que leurs membres;\n• Notifier l’utilisateur lors de l\'ajout d\'une activités dont il est participant;\n• Notifier les participants d\'une activités ajouté par l\'utilisateur;\n• Analyser, notamment sur la base de statistiques, les informations/contacts/activités/consommées, afin de permettre leur évolution/adaptation ainsi que faciliter la navigation sur l’Application et proposer à l’utilisateur des paramétrages adaptés; \n• Traiter les propositions d’évolutions et anomalies remontées et répondre aux questions posées par les clients ; \n• Gérer les « réclamations » clients remontées par la rubrique « contacter nous ». \n• Adresser des offres commerciales aux Utilisateurs. \nLes données collectées directement par Sharenda sont nécessaires à ces traitements et sont destinées aux services concernés.</string>
+    <string name="text_title_data_collect">Données collectées</string>
+    <string name="text_data_collected">Les données obligatoires collectées pour la création d’un profil sont : sexe, prénom, age, statut civil et habitudes comportementales. Afin de pouvoir bénéficier de toutes les fonctionnalités de l’Application, la déclaration d\'un Groupe associé à une categorie spécifique est nécessaire.</string>
+    <string name="text_title_data_retention_time">Durée de conservation des données</string>
+    <string name="text_data_retention_time">Les données collectées par Sharenda sont uniquement conservées sur votre smartphone et ce pendant toute la durée d’utilisation de l’Application.</string>
+    <string name="text_title_right_access">Droit d’accès et de rectification, droit d’opposition</string>
+    <string name="text_right_access">Conformément à la Loi « Informatique et Libertés » n° 78-17 du 6 janvier 1978, l’Utilisateur dûment identifié auprès de Sharenda dispose, d\'un droit d\'accès, de rectification, de modification, d’opposition et de suppression au traitement des données à caractère personnel le concernant.  \nL’Utilisateur peut également adresser des directives afin de définir les conditions d’utilisation, de conservation et de communication de ses données à caractère personnel après son décès. Les directives données par l’Utilisateur ont un effet limité aux données collectées par Sharenda dans le cadre de l’utilisation de l’Application.  Si l’Utilisateur souhaite exercer ces droits, il lui suffit de nous contacter.</string>
+    <string name="text_title_right_permissions">Autorisations de l’application</string>
+    <string name="text_right_permissions">• CONTACTS : lecture des contacts (nom, prenom, numéro)\n• APPELS : appel des contats\n• SMS : lecture et envoi de SMS\n• STOCKAGE : Importation d\'activités</string>
+
+    <string name="student_tiny">Elève</string>
+    <string name="student">Etudiant</string>
+    <string name="professional">Professionnel</string>
+    <string name="description_genre">Genre de l\'utilisateur</string>
+    <string name="label_text_code">code</string>
+    <string name="label_text_number">Numéro de téléphone</string>
+    <string name="label_title_form_profile">Profil</string>
+    <string name="label_text_country">Pays</string>
+    <string name="description_comportement">Comportement de l\'utilisateur</string>
+
+    <string name="serious">Sérieux</string>
+    <string name="partup">Fétard</string>
+    <string name="opportunist">Opportuniste</string>
+
+    <string name="event_type_personal">Personnel</string>
+    <string name="event_type_any">Aucun</string>
+    <string name="group_category_any">Aucune</string>
+    <string name="group_category_business">Business</string>
+    <string name="group_category_work">Travail</string>
+    <string name="group_category_sport">Sport</string>
+    <string name="group_category_study">Etudes</string>
+    <string name="group_category_family">Famille</string>
+    <string name="group_category_enjoy">Loisirs</string>
+
+    <string name="label_title_activity_event_add">Nouvelle Activité</string>
+    <string name="label_title_activity_group_add">Nouveau Groupe</string>
+    <string name="label_title_activity_group_edit">Edition du Groupe</string>
+    <string name="label_text_camera">Sélectionnez une Photo du Groupe</string>
+
+    <string name="subtitle_activity_group_edit">Détails du groupe</string>
+    <string name="subtitle_activity_group_add_members">Ajouter des membres</string>
+    <string name="subtitle_activity_group_send_sms">Envoyer Sms</string>
+    <string name="subtitle_activity_group_send_invitation">Envoyer invitation(s)</string>
+    <string name="subtitle_activity_settings">Paramètres</string>
+    <string name="subtitle_activity_settings_preferences">Préférences</string>
+    <string name="subtitle_activity_settings_language">Langue</string>
+    <string name="subtitle_activity_settings_help">Aide</string>
+
+    <string name="description_attitude">Attitude de l\'utilisateur</string>
+    <string name="description_category">Liste des categories</string>
+    <string name="description_type">Liste des categories</string>
+    <string name="description_group_list">Liste des groupes</string>
+    <string name="description_date">Date de l\'activité à enregistrer</string>
+    <string name="description_hour">Heure de l\'activité à enregistrer</string>
+    <string name="description_time">Durée de l\'activité</string>
+
+    <string name="description_group_photo_">Photo decrivant le groupe</string>
+
+    <string name="label_title_photo">Photo du Groupe</string>
+    <string name="label_title_event_1">Statut</string>
+    <string name="label_title_event_2">Rejoindre</string>
+    <string name="label_title_event_3">Historique</string>
+    <string name="label_title_phone_1">Contacts</string>
+    <string name="label_title_phone_2">Groupes</string>
+
+
+    <string name="ic_Save">Sauvegarder</string>
+    <string name="ic_send_invite">Inviter</string>
+
+    <string name="action_settings">Paramètres</string>
+    <string name="action_add_event">Ajouter un event</string>
+    <string name="action_event_phone">Répertoire</string>
+    <string name="action_del_group">Supprimer le groupe</string>
+    <string name="action_add_contact">Ajouter un contact</string>
+    <string name="action_phone_add_group">Ajouter un groupe</string>
+    <string name="action_phone_event">Activités</string>
+    <string name="action_invite">Inviter des amis</string>
+    <string name="action_preferences_reset">Réinitialiser</string>
+
+    <string name="label_text_next_time">Ensuite..</string>
+    <string name="label_text_priority">Priorité</string>
+
+    <string name="label_day_lundi">Lundi</string>
+    <string name="label_day_mardi">Mardi</string>
+    <string name="label_day_mercredi">Mercredi</string>
+    <string name="label_day_jeudi">Jeudi</string>
+    <string name="label_day_vendredi">Vendredi</string>
+    <string name="label_day_samedi">Samedi</string>
+    <string name="label_day_dimanche">Dimanche</string>
+
+    <string name="label_month_jan">Janvier</string>
+    <string name="label_month_fev">Février</string>
+    <string name="label_month_mar">Mars</string>
+    <string name="label_month_avr">Avril</string>
+    <string name="label_month_may">Mai</string>
+    <string name="label_month_jun">Juin</string>
+    <string name="label_month_juil">Juillet</string>
+    <string name="label_month_aou">Août</string>
+    <string name="label_month_sep">Septembre</string>
+    <string name="label_month_oct">Octobre</string>
+    <string name="label_month_nov">Novembre</string>
+    <string name="label_month_dec">Décembre</string>
+
+    <string name="today">Aujourd\'hui</string>
+    <string name="label_text_separator_date">à</string>
+    <string name="tomorrow">Demain</string>
+    <string name="yesterday">Hier</string>
+
+    <string name="label_text_fragment_foreign_null">(Aucune activités à rejoindre)</string>
+    <string name="label_text_fragment_foreign_null_not">Activités récentes..</string>
+    <string name="label_text_fragment_historic_null">(Historique vide)</string>
+    <string name="label_text_fragment_historic_null_not">Activités dépassées..</string>
+    <string name="label_text_fragment_owner_null">(Aucune activités en cours)</string>
+    <string name="label_message_fragment_group_null">(Aucun groupes enregistrés)</string>
+    <string name="label_message_fragment_contact_null">(Votre répertoire est vide)</string>
+    <string name="label_message_contact_number_null">(Numéro absent du répertoire)</string>
+    <string name="label_text_type_personal">Personnel</string>
+    <string name="label_text_invitation">Invitation</string>
+
+    <string name="activity_time_one">Moins d\'une heure</string>
+    <string name="activity_time_two">1 ou 2 heures</string>
+    <string name="activity_time_three">2 ou 3 heures</string>
+    <string name="activity_time_four">Plus de 3 heures</string>
+
+    <string name="label_subtitle_members">Membres: </string>
+    <string name="group_edit_label_text_add">Ajouter</string>
+    <string name="label_message_activity_add">Laisser Sharenda choisir la date.</string>
+
+    <string name="label_message_sms_1">Cette fonctionnalité sera bientôt disponible</string>
+    <string name="label_message_sms_2">Merci de nous donner ton avis sur Sharenda !!</string>
+    <string name="label_message_welcome_title">, soit la bienvenue dans l\'univers de Sharenda.</string>
+    <string name="label_message_welcome_point1">Organise ton emploi du temps ultra rapidement.</string>
+    <string name="label_message_welcome_point2">Crée, rejoint et partage de multiples activités avec tes proches.</string>
+    <string name="label_message_welcome_point3">Gère tes envies de manière automatique.</string>
+    <string name="label_message_preferences_info">Entre tes préferences pour une sauvegarde automatique !!</string>
+
+    <string name="button_begin">Commencer</string>
+    <string name="button_finish">Terminer</string>
+
+    <string name="label_text_setting_profil_info">Sélectionne une photo de profil</string>
+    <string name="label_text_setting_profile">Profil</string>
+    <string name="label_text_setting_preferences">Préferences</string>
+    <string name="label_text_setting_langage">Langue</string>
+    <string name="label_text_setting_help">Aide</string>
+    <string name="label_text_setting_help_contact_us">Contactez-nous</string>
+    <string name="label_text_setting_help_politic">Politique de confidentialité</string>
+    <string name="label_text_setting_help_about">A propos</string>
+    <string name="label_text_setting_title_managment">Gestion de Sharenda</string>
+    <string name="label_text_setting_title_profile">Profil Sharenda</string>
+    <string name="label_text_setting_language_fr">Français</string>
+    <string name="label_text_setting_language_en">Anglais</string>
+
+    <string name="label_text_trixobase" translatable="false">trixobase</string>
+    <string name="label_text_trixobase_copyrights" translatable="false">© %d trixobase copyright</string>
+    <string name="label_text_trixobase_rights" translatable="false">All rights reserved</string>
+    <string name="label_text_trixobase_infos">\@trixobase\nNoumia Nguebissie\nDéveloppeur Java/EE/Android</string>
+    <string name="label_text_trixobase_addresse">noumiajp@gmail.com\n(+237) 690 867 833\nCameroun - Bangangté\nImmeuble MC2</string>
+
+</resources>

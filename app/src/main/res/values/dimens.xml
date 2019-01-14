@@ -1,0 +1,41 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="first_height_size_icon">100dp</dimen>
+    <dimen name="first_width_size_icon">100dp</dimen>
+
+    <dimen name="width_label_policy">300dp</dimen>
+    <dimen name="width_layout_text_policy">260dp</dimen>
+    <dimen name="width_layout_title_policy">280dp</dimen>
+    <dimen name="width_button_registration">300dp</dimen>
+    <dimen name="height_button_registration">40dp</dimen>
+
+    <dimen name="textSize_title_form">15sp</dimen>
+    <dimen name="textSize_title_step">20sp</dimen>
+
+    <dimen name="margin_form_layout">24sp</dimen>
+    <dimen name="textSize_radio">16sp</dimen>
+    <dimen name="textSize_form_label">16sp</dimen>
+    <dimen name="textSize_trixo">15sp</dimen>
+    <dimen name="textSize_welcome_appname">40sp</dimen>
+    <dimen name="padding_layout_subForm">7dp</dimen>
+    <dimen name="sharenda_title">22sp</dimen>
+    <dimen name="padding_bottom_layout">30dp</dimen>
+
+    <dimen name="subtitle_policy">15sp</dimen>
+    <dimen name="texte_policy">10sp</dimen>
+
+    <dimen name="margin_button_bottom">15dp</dimen>
+    <dimen name="padding_left">20dp</dimen>
+    <dimen name="width_layout_subForm">@dimen/width_button_registration</dimen>
+
+    <dimen name="EditText_text_size">15sp</dimen>
+    <dimen name="ImageView_control_size">15dp</dimen>
+    <dimen name="ImageView_control_margin_left">7dp</dimen>
+
+    <dimen name="EditText_width_form">150dp</dimen>
+    <dimen name="Layout_horizontal_form_margintop">7dp</dimen>
+    <dimen name="EditText_layout_height">28dp</dimen>
+    <dimen name="ImageView_Control_marginStart">12dp</dimen>
+
+</resources>

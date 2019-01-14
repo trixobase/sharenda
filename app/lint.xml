@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconColors">
+        <ignore path="src/main/res/drawable-mdpi/ic_action_accept.png" />
+    </issue>
+    <issue id="IconDipSize">
+        <ignore path="src/main/res/drawable-mdpi/ic_category_advert.png" />
+        <ignore path="src/main/res/drawable-xhdpi/ic_category_advert.png" />
+    </issue>
+    <issue id="IconDuplicates">
+        <ignore path="src/main/res/drawable-mdpi/ic_action_save.png" />
+        <ignore path="src/main/res/drawable-xhdpi/ic_category_advert.png" />
+    </issue>
+</lint>

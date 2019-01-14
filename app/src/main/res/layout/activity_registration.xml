@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".domain.activity.registration.Registration">
+
+    <LinearLayout
+        style="@style/Layout_Main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <include layout="@layout/my_toolbar" />
+
+        //Creez votre compte
+
+        <TextView
+            android:id="@+id/tv_registration_title_id"
+            style="@style/TextView_Title_Registration"
+            android:contentDescription="@string/step_description"
+            android:text="@string/label_title_registration_add" />
+
+        //Identification
+
+        <TextView
+            style="@style/TextView_Form_SubTitle"
+            android:text="@string/subtitile_form_identification" />
+
+        <android.support.constraint.ConstraintLayout
+            style="@style/Layout_subForm"
+            android:layout_height="215dp">
+
+
+            <TextView
+                android:id="@+id/tv_sexe_id"
+                style="@style/TextView_Form"
+                android:layout_marginStart="8dp"
+                android:contentDescription="@string/description_genre"
+                android:text="@string/label_text_form_sexe"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="7dp"
+                tools:ignore="MissingConstraints" />
+
+            <RadioGroup
+                android:id="@+id/rg_sexe_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/et_age_id"
+                app:layout_constraintStart_toStartOf="@+id/et_age_id"
+                tools:ignore="MissingConstraints">
+
+                <RadioButton
+                    android:id="@+id/r_mr_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:text="@string/civility_mr"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/textSize_radio" />
+
+                <RadioButton
+                    android:id="@+id/r_me_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:text="@string/civility_mrs"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/textSize_radio" />
+            </RadioGroup>
+
+            <ImageView
+                android:id="@+id/iv_sexe_id"
+                style="@style/ImageView_control"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="@+id/iv_age_id"
+                app:layout_constraintStart_toEndOf="@+id/rg_sexe_id"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            //Age
+
+            <TextView
+                android:id="@+id/tv_age_id"
+                style="@style/TextView_Form"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="8dp"
+                android:text="@string/label_text_form_age"
+                app:layout_constraintBottom_toTopOf="@+id/tv_civil_status_id"
+                app:layout_constraintStart_toStartOf="parent" />
+
+                //Age
+
+            <EditText
+                android:id="@+id/et_age_id"
+                style="@style/EditText"
+                android:layout_width="100dp"
+                android:layout_marginBottom="13dp"
+                android:inputType="number"
+                app:layout_constraintBottom_toTopOf="@+id/sp_civil_status_id"
+                app:layout_constraintStart_toStartOf="@+id/sp_civil_status_id"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/TextView_Form"
+                android:layout_marginEnd="42dp"
+                android:layout_marginTop="13dp"
+                android:contentDescription="@string/description_age"
+                android:text="@string/label_text_ans"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/et_age_id"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/iv_age_id"
+                style="@style/ImageView_control"
+                android:layout_marginBottom="27dp"
+                android:layout_marginStart="22dp"
+                app:layout_constraintBottom_toTopOf="@+id/iv_civil_status_id"
+                app:layout_constraintStart_toEndOf="@+id/textView2"
+                tools:ignore="MissingConstraints" />
+
+                //Status civil
+
+            <TextView
+                android:id="@+id/tv_civil_status_id"
+                style="@style/TextView_Form"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="8dp"
+                android:contentDescription="@string/description_status"
+                android:text="@string/civil_status"
+                app:layout_constraintBottom_toTopOf="@+id/tv_attitude_id"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Spinner
+                android:id="@+id/sp_civil_status_id"
+                style="@style/Spinner"
+                android:layout_marginBottom="13dp"
+                android:layout_marginEnd="30dp"
+                android:contentDescription="@string/description_status"
+                android:padding="0dp"
+                app:layout_constraintBottom_toTopOf="@+id/sp_attitude_id"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/iv_civil_status_id"
+                style="@style/ImageView_control"
+                android:layout_marginBottom="27dp"
+                android:layout_marginStart="10dp"
+                app:layout_constraintBottom_toTopOf="@+id/iv_attitude_id"
+                app:layout_constraintStart_toEndOf="@+id/sp_civil_status_id"
+                tools:ignore="MissingConstraints"/>
+
+            //Attitude
+
+            <TextView
+                android:id="@+id/tv_attitude_id"
+                style="@style/TextView_Form"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="8dp"
+                android:contentDescription="@string/description_comportement"
+                android:text="@string/label_text_attitude"
+                app:layout_constraintBottom_toTopOf="@+id/tv_surname_id"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Spinner
+                android:id="@+id/sp_attitude_id"
+                style="@style/Spinner"
+                android:layout_marginBottom="13dp"
+                android:layout_marginEnd="30dp"
+                android:contentDescription="@string/description_comportement"
+                android:gravity="top"
+                app:layout_constraintBottom_toTopOf="@+id/et_surmane_id"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/iv_attitude_id"
+                style="@style/ImageView_control"
+                android:layout_marginBottom="27dp"
+                android:layout_marginStart="10dp"
+                app:layout_constraintBottom_toTopOf="@+id/iv_surname_id"
+                app:layout_constraintStart_toEndOf="@+id/sp_attitude_id"
+                tools:ignore="MissingConstraints" />
+
+            //Prenom
+
+            <TextView
+                android:id="@+id/tv_surname_id"
+                style="@style/TextView_Form"
+                android:layout_marginBottom="12dp"
+                android:layout_marginStart="8dp"
+                android:text="@string/label_text_form_surname"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/et_surmane_id"
+                style="@style/EditText"
+                android:layout_width="@dimen/EditText_width_form"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="30dp"
+                android:inputType="textPersonName"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/iv_surname_id"
+                style="@style/ImageView_control"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/et_surmane_id"
+                tools:ignore="MissingConstraints" />
+        </android.support.constraint.ConstraintLayout>
+
+        //Securite
+
+        <TextView
+            style="@style/TextView_Form_SubTitle"
+            android:text="@string/subtitile_form_security" />
+
+        //2 form
+
+        <LinearLayout
+            android:layout_width="@dimen/width_layout_subForm"
+            android:layout_height="100dp"
+            android:background="@drawable/layout_security"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_layout_subForm">
+
+            <EditText
+                android:id="@+id/et_password_id"
+                style="@style/EditText"
+                android:layout_marginTop="5dp"
+                android:layout_width="200dp"
+                android:hint="@string/password"
+                android:inputType="numberPassword" />
+
+            <EditText
+                android:id="@+id/et_confirm_id"
+                style="@style/EditText"
+                android:layout_width="200dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                android:hint="@string/confirm"
+                android:inputType="numberPassword" />
+            //end second form
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_finish_id"
+            style="@style/Button"
+            android:text="@string/button_finish" />
+
+    </LinearLayout>
+</ScrollView>

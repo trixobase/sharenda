@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="cm.trixobase.sharenda.domain.activity.setting.SettingActivity">
+
+    <include layout="@layout/my_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="2dp">
+
+        <TextView
+            android:id="@+id/tv_setting_title_proflie_id"
+            style="@style/TextView_Form"
+            android:layout_width="wrap_content"
+            android:paddingStart="20dp"
+            android:text="@string/label_text_setting_title_profile"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+
+    <include layout="@layout/my_linear"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll_settings_picture_id"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        tools:ignore="RtlSymmetry">
+
+        <ImageView
+            android:id="@+id/iv_setting_picture_contact_id"
+            android:layout_width="45dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/ic_camera"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_setting_profil_name_id"
+                style="@style/TextView_Setting"
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorGrey"
+                android:textSize="18sp"/>
+
+            <TextView
+                style="@style/TextView_Setting"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:gravity="top"
+                android:text="@string/label_text_setting_profil_info"
+                android:textColor="@color/colorBlack"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/my_linear_setting"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll_settings_account_id"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        tools:ignore="RtlSymmetry">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/ic_user"/>
+
+
+        <TextView
+            style="@style/TextView_Setting"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/label_text_setting_profile"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/my_linear"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="2dp">
+
+        <TextView
+            android:id="@+id/tv_setting_title_managment_id"
+            style="@style/TextView_Form"
+            android:layout_width="wrap_content"
+            android:paddingStart="20dp"
+            android:text="@string/label_text_setting_title_managment"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+
+    <include layout="@layout/my_linear"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll_settings_preferences_id"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        tools:ignore="RtlSymmetry">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/ic_reveil"/>
+
+
+        <TextView
+            style="@style/TextView_Setting"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/label_text_setting_preferences"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/my_linear_setting"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll_settings_language_id"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        tools:ignore="RtlSymmetry">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/ic_language"/>
+
+
+        <TextView
+            style="@style/TextView_Setting"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/label_text_setting_langage"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/my_linear_setting"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll_settings_help_id"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        tools:ignore="RtlSymmetry">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/ic_help"/>
+
+
+        <TextView
+            style="@style/TextView_Setting"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/label_text_setting_help"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/my_linear"/>
+</LinearLayout>

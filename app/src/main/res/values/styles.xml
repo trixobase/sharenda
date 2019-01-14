@@ -1,0 +1,257 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@drawable/sharenda_fond_ecran</item>
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="SharendaTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@drawable/sharenda_fond_ecran</item>
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorBlue</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Home" parent="SharendaTheme">
+        <item name="android:windowBackground">@drawable/sharenda_fond_ecran</item>
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorBlue</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />-->
+
+    <!--<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
+
+    <style name="Splash_Theme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/sharenda_fond_ecran</item>
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="About_Theme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/sharenda_about</item>
+    </style>
+
+    <style name="TextView_TunedText" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="TextView_TunedText_Splash" parent="TextView_TunedText">
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="TextView_TunedText_Welcome" parent="TextView_TunedText">
+        <item name="android:fontFamily">@font/apple_garamond_bold</item>
+        <item name="android:textSize">@dimen/textSize_welcome_appname</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TitlePolicy" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/subtitle_policy</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textSize">@dimen/subtitle_policy</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="TextPolicy" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">@dimen/texte_policy</item>
+        <item name="android:textAlignment">inherit</item>
+    </style>
+
+    <style name="TextView_Title_Registration">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/text_title_step</item>
+        <item name="android:textSize">@dimen/textSize_title_step</item>
+        <item name="android:paddingLeft">@dimen/padding_left</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="TextView_Title_Event">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorGrey</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="TextView_Title_Phone">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorGrey</item>
+    </style>
+
+    <style name="TextView_Form_SubTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/margin_form_layout</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:textSize">@dimen/textSize_title_form</item>
+    </style>
+
+    <style name="Button" parent="TextView_Form">
+        <item name="android:background">@drawable/button</item>
+        <item name="android:layout_width">@dimen/width_button_registration</item>
+        <item name="android:layout_height">@dimen/height_button_registration</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginTop">@dimen/margin_button_bottom</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Layout_Main">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">@dimen/padding_bottom_layout</item>
+    </style>
+
+    <style name="Layout_subForm">
+        <item name="android:layout_width">@dimen/width_layout_subForm</item>
+        <item name="android:background">@drawable/layout_identification</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/padding_layout_subForm</item>
+    </style>
+
+    <style name="TextView_Form">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/textSize_form_label</item>
+    </style>
+
+    <style name="TextView_Trixo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/textSize_trixo</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:ems">10</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:textSize">@dimen/EditText_text_size</item>
+        <item name="android:textColor">@color/text_widget_form</item>
+        <item name="android:textColorHint">@color/text_widget_form</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="TableRow">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">start</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="Spinner">
+        <item name="android:layout_width">@dimen/EditText_width_form</item>
+        <item name="android:layout_height">@dimen/EditText_layout_height</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="TextView_ListView">
+        <item name="android:textAppearance">?android:attr/textAppearanceListItemSmall</item>
+        <item name="android:gravity">top</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingLeft">?android:attr/listPreferredItemPaddingStart</item>
+        <item name="android:paddingRight">?android:attr/listPreferredItemPaddingEnd</item>
+        <item name="android:minHeight">?android:attr/listPreferredItemHeightSmall</item>
+    </style>
+
+    <style name="TextView_Setting">
+        <item name="android:textAppearance">?android:attr/textAppearanceListItemSmall</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:textColor">@color/colorGrey</item>
+        <item name="android:paddingLeft">?android:attr/listPreferredItemPaddingStart</item>
+        <item name="android:paddingRight">?android:attr/listPreferredItemPaddingEnd</item>
+        <item name="android:minHeight">?android:attr/listPreferredItemHeightSmall</item>
+    </style>
+
+    <style name="ImageView_control">
+        <item name="android:layout_width">@dimen/ImageView_control_size</item>
+        <item name="android:layout_height">@dimen/ImageView_control_size</item>
+        <item name="android:layout_marginLeft">@dimen/ImageView_control_margin_left</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="Layout_Horizontal">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical|clip_vertical</item>
+        <item name="android:layout_marginTop">@dimen/Layout_horizontal_form_margintop</item>
+    </style>
+
+    <style name="SharendaTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </style>
+
+    <style name="SharendaTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+
+    </style>
+
+    <style name="CheckBox">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="Autocomplete" parent="EditText">
+
+    </style>
+
+    <style name="Toolbar">
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:popupTheme" tools:targetApi="lollipop">
+            @style/SharendaTheme.PopupOverlay
+        </item>
+        <item name="title">@string/app_name</item>
+        <item name="android:titleTextColor" tools:targetApi="m">@color/colorAccent</item>
+        <item name="android:subtitleTextColor" tools:targetApi="m">@color/subtitle_activity</item>
+    </style>
+
+    <style name="TabLayout">
+        <item name="android:layout_marginTop">?attr/actionBarSize</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name ="datepicker" parent ="Theme.AppCompat.Light.Dialog">
+        <item name ="colorPrimary">@color/colorPrimary</item>
+        <item name ="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name ="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

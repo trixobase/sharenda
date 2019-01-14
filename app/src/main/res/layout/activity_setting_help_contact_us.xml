@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBlack"
+    tools:context="cm.trixobase.sharenda.domain.activity.setting.SettingHelpContact">
+
+    <include layout="@layout/my_toolbar"/>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="5dp">
+
+        <ImageView
+            android:id="@+id/iv_trixobase_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/iv_trixobase"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_trixobase_id"
+            style="@style/TextView_Trixo"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="15dp"
+            android:text="@string/label_text_trixobase"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_trixobase_id" />
+
+        <TextView
+            android:id="@+id/tv_trixobase_copyrights_id"
+            style="@style/TextView_Trixo"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:textSize="13dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_trixobase_id" />
+
+        <TextView
+            android:id="@+id/tv_trixobase_rights_id"
+            style="@style/TextView_Trixo"
+            android:layout_marginStart="37dp"
+            android:textSize="11dp"
+            android:text="@string/label_text_trixobase_rights"
+            app:layout_constraintStart_toStartOf="@+id/tv_trixobase_copyrights_id"
+            app:layout_constraintTop_toBottomOf="@+id/tv_trixobase_copyrights_id" />
+
+        <TextView
+            android:id="@+id/tv_trixobase_infos_id"
+            style="@style/TextView_Trixo"
+            android:layout_width="340dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/label_text_trixobase_infos"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_trixobase_rights_id" />
+
+        <TextView
+            android:id="@+id/tv_trixobase_addresse_id"
+            style="@style/TextView_Trixo"
+            android:layout_width="340dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/label_text_trixobase_addresse"
+            app:layout_constraintStart_toStartOf="@+id/tv_trixobase_infos_id"
+            app:layout_constraintTop_toBottomOf="@+id/tv_trixobase_infos_id" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

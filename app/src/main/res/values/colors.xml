@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <color name="colorPrimary">#432f46</color>
+    <color name="colorPrimaryDark">#221a23</color>
+    <color name="colorAccent">@android:color/background_light</color>
+
+    <color name="subtitle_policy">@color/colorBlue</color>
+    <color name="subtitle_activity">@color/colorPurple</color>
+    <color name="subtitle">@color/colorGrey</color>
+    <color name="text_widget_form">@color/colorBlack</color>
+    <color name="text_title_step">@color/colorWhiteBroke</color>
+    <color name="text_widget_form_error">@color/colorRed</color>
+
+    <color name="colorWhiteBroke">#eae5ea</color>
+
+    <color name="colorGreen">#FF388B1F</color>
+    <color name="colorOrange">#d4a010</color>
+    <color name="colorGrey">#FF999696</color>
+    <color name="colorBlue">#6633b5e5</color>
+    <color name="colorPurple">#FF62486B</color>
+    <color name="colorRed">#f0293c</color>
+    <color name="colorBlack">#000000</color>
+
+</resources>

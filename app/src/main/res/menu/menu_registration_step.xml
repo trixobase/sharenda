@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:keep="@menu/menu_registration_step">
+
+    <item
+        android:icon="@drawable/ic_action_infos"
+        android:orderInCategory="100"
+        android:title="@string/ic_Astuces"
+        app:showAsAction="always" />
+</menu>

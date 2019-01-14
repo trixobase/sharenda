@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="cm.trixobase.sharenda.domain.activity.setting.SettingPreferences">
+
+    <include layout="@layout/my_toolbar"/>
+
+    <LinearLayout
+        android:id="@+id/ll_preferences_work_id"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        tools:ignore="RtlSymmetry">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/iv_work"/>
+
+
+        <TextView
+            style="@style/TextView_Setting"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/group_category_work"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/my_linear_setting"/>
+
+    <LinearLayout
+        android:id="@+id/ll_preferences_studies_id"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        tools:ignore="RtlSymmetry">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/iv_study"/>
+
+
+        <TextView
+            style="@style/TextView_Setting"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/group_category_study"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/my_linear_setting"/>
+
+    <LinearLayout
+        android:id="@+id/ll_preferences_business_id"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        tools:ignore="RtlSymmetry">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/iv_business"/>
+
+
+        <TextView
+            style="@style/TextView_Setting"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/group_category_business"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/my_linear_setting"/>
+
+    <LinearLayout
+        android:id="@+id/ll_preferences_family_id"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        tools:ignore="RtlSymmetry">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/iv_familiy"/>
+
+
+        <TextView
+            style="@style/TextView_Setting"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/group_category_family"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/my_linear_setting"/>
+
+    <LinearLayout
+        android:id="@+id/ll_preferences_sport_id"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        tools:ignore="RtlSymmetry">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/iv_sport"/>
+
+
+        <TextView
+            style="@style/TextView_Setting"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/group_category_sport"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/my_linear_setting"/>
+
+    <LinearLayout
+        android:id="@+id/ll_preferences_enjoy_id"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        tools:ignore="RtlSymmetry">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/iv_enjoy"/>
+
+
+        <TextView
+            style="@style/TextView_Setting"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/group_category_enjoy"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/my_linear_setting"/>
+
+</LinearLayout>

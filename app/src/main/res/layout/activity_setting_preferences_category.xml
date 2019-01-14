@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context="cm.trixobase.sharenda.domain.activity.setting.SettingPreferencesCategory">
+
+    <include
+        android:id="@+id/include3"
+        layout="@layout/my_toolbar" />
+
+    <TextView
+        android:id="@+id/tv_preferences_info_message_id"
+        style="@style/TextView_Form"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:padding="5dp"
+        android:gravity="center_horizontal"
+        android:text="@string/label_message_preferences_info"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@+id/include3" />
+
+    <include
+        android:id="@+id/include4"
+        layout="@layout/my_linear"
+        app:layout_constraintTop_toBottomOf="@+id/tv_preferences_info_message_id"/>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorBlue"/>
+
+        <LinearLayout
+            android:id="@+id/ll_preferences_day_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tv_preferences_day_id"
+                style="@style/TextView_Form"
+                android:text="@string/label_text_form_best_day"
+                android:layout_gravity="center_vertical"/>
+
+            <Spinner
+                android:id="@+id/sp_preferences_day_id"
+                style="@style/Spinner"
+                android:layout_marginStart="10dp">
+
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_preferences_hour_min_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ll_preferences_day_id">
+
+            <TextView
+                android:id="@+id/tv_preferences_hour_min_id"
+                style="@style/TextView_Form"
+                android:layout_gravity="center_vertical"
+                android:text="@string/label_text_form_hour_min" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp">
+
+                <EditText
+                    android:id="@+id/et_preferences_hour_min_hour_id"
+                    style="@style/EditText"
+                    android:layout_width="30dp"
+                    android:layout_marginStart="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20dp"
+                    android:text="h"/>
+
+                <EditText
+                    android:id="@+id/et_preferences_hour_min_min_id"
+                    style="@style/EditText"
+                    android:layout_width="30dp"
+                    android:layout_marginStart="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20dp"
+                    android:text="m"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_preferences_hour_max_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ll_preferences_hour_min_id">
+
+            <TextView
+                android:id="@+id/tv_preferences_hour_max_id"
+                style="@style/TextView_Form"
+                android:layout_gravity="center_vertical"
+                android:text="@string/label_text_form_hour_max" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp">
+
+                <EditText
+                    android:id="@+id/et_preferences_hour_max_hour_id"
+                    style="@style/EditText"
+                    android:inputType="number"
+                    android:layout_width="30dp"
+                    android:layout_marginStart="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20dp"
+                    android:text="h"/>
+
+                <EditText
+                    android:id="@+id/et_preferences_hour_max_min_id"
+                    style="@style/EditText"
+                    android:inputType="number"
+                    android:layout_width="30dp"
+                    android:layout_marginStart="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20dp"
+                    android:text="m"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_preferences_time_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@id/ll_preferences_hour_max_id">
+
+            <TextView
+                android:id="@+id/tv_preferences_time_id"
+                style="@style/TextView_Form"
+                android:text="@string/label_text_form_time_med"
+                android:layout_gravity="center_vertical"/>
+
+            <EditText
+                android:id="@+id/et_preferences_time_id"
+                style="@style/EditText"
+                android:inputType="number"
+                android:layout_width="37dp"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="3dp"
+                android:textSize="20dp"
+                android:text="m"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="2dp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorBlue"
+            app:layout_constraintTop_toBottomOf="@id/ll_preferences_time_id" />
+
+
+    </android.support.constraint.ConstraintLayout>
+    <include layout="@layout/my_linear"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

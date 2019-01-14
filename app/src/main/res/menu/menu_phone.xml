@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cm.trixobase.sharenda.domain.activity.home.PhoneActivity">
+    <item
+        android:id="@+id/action_phone_add_contact_id"
+        android:orderInCategory="150"
+        android:title="@string/action_add_contact"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_new_user2" />
+    <item
+        android:id="@+id/action_phone_add_group_id"
+        android:orderInCategory="185"
+        android:title="@string/action_phone_add_group"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_new_group" />
+    <item
+        android:id="@+id/action_phone_activity_id"
+        android:orderInCategory="185"
+        android:title="@string/action_phone_event"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_phone_invite_id"
+        android:orderInCategory="187"
+        android:title="@string/action_invite"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_phone_settings_id"
+        android:orderInCategory="190"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
