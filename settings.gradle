@@ -1,1 +1,12 @@
+include ':frontend'
 include ':app'
+rootProject.name = "Sharenda"
+
+include ':common'
+project(':common').projectDir = new File(settingsDir, '../../Libraries/common')
+include ':backend'
+project(':backend').projectDir = new File(settingsDir, '../../Libraries/backend')
+include ':service'
+project(':service').projectDir = new File(settingsDir, '../../Libraries/service')
+include ':account'
+project(':account').projectDir = new File(settingsDir, '../../Libraries/account')

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iv_background"
+    android:orientation="vertical"
+    tools:context=".domain.fragment.InfoMessageFragment">
+
+    <ListView
+        android:id="@+id/listview_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_empty_list_id"
+        style="@style/TextView_Empty_List"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

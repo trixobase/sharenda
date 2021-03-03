@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources >
-    <color name="colorPrimary">#432f46</color>
-    <color name="colorPrimaryDark">#221a23</color>
-    <color name="colorAccent">@android:color/background_light</color>
+<resources>
 
-    <color name="subtitle_policy">@color/colorBlue</color>
-    <color name="subtitle_activity">@color/colorPurple</color>
-    <color name="subtitle">@color/colorGrey</color>
-    <color name="text_widget_form">@color/colorBlack</color>
-    <color name="text_title_step">@color/colorWhiteBroke</color>
-    <color name="text_widget_form_error">@color/colorRed</color>
+    // -------------------  Custom app  ----------------------
 
-    <color name="colorWhiteBroke">#eae5ea</color>
+    <color name="bar_notification">@color/indigoBlack</color>
 
-    <color name="colorGreen">#FF388B1F</color>
-    <color name="colorOrange">#d4a010</color>
-    <color name="colorGrey">#FF999696</color>
-    <color name="colorBlue">#6633b5e5</color>
-    <color name="colorPurple">#FF62486B</color>
-    <color name="colorRed">#f0293c</color>
-    <color name="colorBlack">#000000</color>
+    <color name="toolbar_background">@color/indigo</color>
+    <color name="toolbar_title">@color/white</color>
+    <color name="toolbar_subtitle">@color/indigoWhite</color>
+    <color name="toolbar_second_no_selected">#8D7097</color>
+
+    <color name="text_default">@color/grayBlack</color>
+    <color name="text_label">@color/blueDark</color>
+    <color name="background">@color/white</color>
+
+    <color name="colorSecondaryVariant">@color/blue</color>
+    <color name="colorOnSecondary">@color/black</color>
+
+    //---------------------------------------------------------
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
 
 </resources>

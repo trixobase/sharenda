@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/tab_layout_background"
+        android:paddingLeft="15dp"
+        android:text="@string/about_us"
+        android:textColor="@color/toolbar_second_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/sofia"
+        android:gravity="left|center_vertical"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <include
+        layout="@layout/my_linear"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/linear" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/toolbar_second_background">
+
+        <LinearLayout
+            android:id="@+id/ll_title_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/bt_trixobase_id"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pacifico"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@color/colorPrimary"
+                android:textSize="32sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-13dp"
+                android:gravity="center"
+                android:text="@string/app_version"
+                android:textColor="@color/title_label"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:layout_marginTop="4dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/iv_app" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="bottom"
+                android:text="@string/trixobase_copyrights"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                tools:ignore="SmallSp" />
+
+        </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/bt_trixobase_id"
+                android:theme="@style/ButtonTrixobaseStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="Plus"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

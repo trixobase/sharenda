@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_search_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="15sp"
+        android:paddingLeft="15sp"
+        android:gravity="center_vertical"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/et_search_id"
+            style="@style/EditText"
+            android:layout_width="match_parent"
+            android:hint="@string/search_here"
+            android:textColorHint="@color/toolbar_second_no_selected"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/my_linear"/>
+
+    <ListView
+        android:id="@+id/lv_phone_contact_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_phone_contact_id"
+        style="@style/TextView_Empty_List"/>
+</LinearLayout>
